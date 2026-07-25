@@ -82,9 +82,9 @@ http://127.0.0.1:8000/docs
   "done": false
 }
 ```
+## Swagger UI
 
----
-
+![Swagger UI](swagger.png)
 ## Author
 
 **Amna Hashim**
