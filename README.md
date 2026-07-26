@@ -85,7 +85,6 @@ http://127.0.0.1:8000/docs
 ## Swagger UI
 
 ![Swagger UI](swagger.png)
-## Author
 
 # AI vs Me
 
@@ -112,4 +111,7 @@ I forgot to specify the exact task model (`id`, `title`, `done`) and the exact J
 ## Prompt Improvement
 
 I improved my prompt by specifying the exact task fields, required HTTP status codes, validation rules, and JSON error format.
+
+
+## Author
 **Amna Hashim**
