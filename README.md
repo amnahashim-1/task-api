@@ -87,4 +87,29 @@ http://127.0.0.1:8000/docs
 ![Swagger UI](swagger.png)
 ## Author
 
+# AI vs Me
+
+## My Prompt
+
+Build a Task API using FastAPI in Python with an in-memory list (no database). Implement GET /, GET /health, GET /tasks, GET /tasks/{id}, POST /tasks, PUT /tasks/{id}, and DELETE /tasks/{id}. Return the correct HTTP status codes (200, 201, 204, 400, 404), validate input, and include Swagger documentation at /docs.
+
+## What the AI did better
+
+- The AI added more comments and documentation.
+- The AI used response models and type hints throughout the code.
+- The AI organized the code into clear sections, making it easier to read.
+
+## What the AI got wrong
+
+- The AI used `completed` instead of the required `done` field.
+- It added an extra `description` field that was not part of the assignment.
+- It returned FastAPI's default validation format unless it was manually customized.
+
+## What my prompt forgot
+
+I forgot to specify the exact task model (`id`, `title`, `done`) and the exact JSON format for error responses, so the AI made its own design choices.
+
+## Prompt Improvement
+
+I improved my prompt by specifying the exact task fields, required HTTP status codes, validation rules, and JSON error format.
 **Amna Hashim**
